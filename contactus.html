@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="shortcut icon" href="shock.webp" />
+</head>
+<style>
+  p{
+    color: aquamarine;
+  }
+  h1{
+    color: red;
+  }
+  label{
+    color: wheat;
+  }
+</style>
+<body>
+<div id="button", align="center">
+
+	<button class="btn" onclick="window.location.href = 'index.html';"><font class="header" >Home</button>
+	<button class="btn" onclick="window.location.href = 'Aboutus.html';"><font class="header" ">About Us</font></button>
+	<button class="btn" onclick="window.location.href = 'contactus.html';">Contact Us</font></button>
+	
+
+	</div>
+
+<div class="container1">
+  <div style="text-align:center">
+    
+    <h1>Contact Us</h1>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <P>We strive to have a positive impact on customers, employees, small businesses, the economy, and communities. Consumers are smart, passionate builders with different backgrounds and goals, who share a common desire to always be learning and inventing on behalf of our customers.</P>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="USA">USA</option>
+          <option value="India" selected>India</option>
+          <option value="Germany">Germany</option>
+          <option value="France">France</option>
+          <option value="Russia">Russia</option>
+          <option value="Spain">Spain</option>
+          <option value="Japan">Japan</option>
+        </select>
+        <label for="subject">Reason</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<button id="end"> © INDIAN ELECTRICITY </button>
+</body>
+</html>
